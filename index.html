@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment - Soboh Design Studio</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+				<!-- Header -->
+				<header id="header" class="alt">
+					<h1><a href="index.html">Why us</a></h1>
+					<nav id="nav">
+						<ul>
+							<li class="special">
+								<a href="#menu" class="menuToggle"><span>Menu</span></a>
+								<div id="menu">
+									<ul>
+										<li><a href="https://talalelmir88.github.io/Sobh-Design-Studio/#">Home</a></li>
+										<li><a href="#">Sign Up</a></li>
+										<li><a href="#">Log In</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</header>
+        </header>
+
+        <!-- Main Section -->
+        <section id="main" class="wrapper">
+            <div class="inner">
+                <h1>Book an Appointment</h1>
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required><br><br>
+
+                    <label for="category">Choose a Category:</label>
+                    <select id="category" name="category" required>
+                        <option value="Residential">Residential</option>
+                        <option value="Private Villas">Private Villas</option>
+                        <option value="Commercial">Commercial</option>
+						<option value="Public">Public</option>
+						<option value="Industrial">Industrial</option>
+						<option value="Medical">Medical</option>
+						<option value="Multifunctional">Multifunctional</option>
+						<option value="Renovation">Renovation</option>
+						<option value="Interior">Interior</option>
+						<option value="Technical Drawings">Technical Drawings</option>
+						<option value="Miscellaneous">Miscellaneous</option>
+                    </select><br><br>
+
+                    <label for="date">Preferred Date:</label>
+                    <input type="date" id="date" name="date" required><br><br>
+
+                    <label for="time">Preferred Time:</label>
+                    <input type="time" id="time" name="time" required><br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="icons">
+                <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+                <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; Soboh Design Studio</li>
+            </ul>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
